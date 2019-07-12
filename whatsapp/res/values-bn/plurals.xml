@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="other">‎%dটি প্রচেষ্টা বাকি রয়েছে</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="other">অনুরোধসমূহ অপেক্ষামান</item>
+        <item quantity="one">অনুরোধ অপেক্ষামান</item>
+    </plurals>
+    <plurals name="payments_transaction_received_notif_pending_setup_without_mentioning_sender">
+        <item quantity="other">আপনাকে %1$s পাঠিয়েছে। গ্রহণ করতে ট্যাপ করুন।</item>
+    </plurals>
+</resources>

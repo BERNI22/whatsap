@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="other">Quedan %d intentos</item>
+        <item quantity="one">Queda %d intento</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="other">Solicitudes pendientes</item>
+        <item quantity="one">Solicitud pendiente</item>
+    </plurals>
+    <plurals name="payments_transaction_received_notif_pending_setup_without_mentioning_sender">
+        <item quantity="other">Te envió %1$s. Toca para aceptar.</item>
+    </plurals>
+</resources>

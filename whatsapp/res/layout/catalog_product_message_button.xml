@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.WaImageView android:id="@id/msg_biz_button" android:background="@drawable/input_circle_green" android:layout_width="@dimen/fab_button_size" android:layout_height="@dimen/fab_button_size" android:src="@drawable/ic_action_message" android:scaleType="center" android:contentDescription="@string/catalog_product_msg_biz"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

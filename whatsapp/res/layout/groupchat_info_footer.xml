@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/list_bottom_shadow" android:background="@drawable/list_separator_top" android:layout_width="fill_parent" android:layout_height="@dimen/info_screen_card_spacing" />
+    <com.whatsapp.InfoCard android:layout_width="fill_parent" android:layout_height="wrap_content" app:icContentColor="@color/primary_background" style="@style/InfoCard">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/exit_group_btn" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="@dimen/info_screen_row">
+            <com.whatsapp.WaImageView android:id="@id/exit_group_icon" android:layout_width="@dimen/small_list_avatar_size" android:layout_height="@dimen/small_list_avatar_size" android:layout_marginRight="@dimen/small_list_avatar_padding" android:src="@drawable/ic_exit_group" android:scaleType="center" android:tint="@color/red_button_text" />
+            <com.whatsapp.WaTextView android:textSize="17.0sp" android:textColor="@color/red_button_text" android:id="@id/exit_group_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/exit_group" />
+        </LinearLayout>
+    </com.whatsapp.InfoCard>
+    <com.whatsapp.InfoCard android:id="@id/report_group" android:layout_width="fill_parent" android:layout_height="wrap_content" app:icContentColor="@color/primary_background" style="@style/InfoCard">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/report_group_btn" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="@dimen/info_screen_row">
+            <com.whatsapp.WaImageView android:id="@id/report_group_icon" android:layout_width="@dimen/small_list_avatar_size" android:layout_height="@dimen/small_list_avatar_size" android:layout_marginRight="@dimen/small_list_avatar_padding" android:src="@drawable/ic_spam_report" android:scaleType="center" android:tint="@color/red_button_text" />
+            <com.whatsapp.WaTextView android:textSize="17.0sp" android:textColor="@color/red_button_text" android:id="@id/report_group_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/report_group" />
+        </LinearLayout>
+    </com.whatsapp.InfoCard>
+</LinearLayout>

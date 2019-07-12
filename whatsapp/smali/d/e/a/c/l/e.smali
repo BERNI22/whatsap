@@ -1,0 +1,105 @@
+.class public abstract Ld/e/a/c/l/e;
+.super Ljava/lang/Object;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<TResult:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract a(Ld/e/a/c/l/a;)Ld/e/a/c/l/e;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ld/e/a/c/l/a<",
+            "TTResult;>;)",
+            "Ld/e/a/c/l/e<",
+            "TTResult;>;"
+        }
+    .end annotation
+.end method
+
+.method public abstract a(Ld/e/a/c/l/b;)Ld/e/a/c/l/e;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ld/e/a/c/l/b;",
+            ")",
+            "Ld/e/a/c/l/e<",
+            "TTResult;>;"
+        }
+    .end annotation
+.end method
+
+.method public abstract a(Ld/e/a/c/l/c;)Ld/e/a/c/l/e;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ld/e/a/c/l/c<",
+            "-TTResult;>;)",
+            "Ld/e/a/c/l/e<",
+            "TTResult;>;"
+        }
+    .end annotation
+.end method
+
+.method public abstract a(Ljava/util/concurrent/Executor;Ld/e/a/c/l/b;)Ld/e/a/c/l/e;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/concurrent/Executor;",
+            "Ld/e/a/c/l/b;",
+            ")",
+            "Ld/e/a/c/l/e<",
+            "TTResult;>;"
+        }
+    .end annotation
+.end method
+
+.method public abstract a(Ljava/util/concurrent/Executor;Ld/e/a/c/l/c;)Ld/e/a/c/l/e;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/concurrent/Executor;",
+            "Ld/e/a/c/l/c<",
+            "-TTResult;>;)",
+            "Ld/e/a/c/l/e<",
+            "TTResult;>;"
+        }
+    .end annotation
+.end method
+
+.method public abstract a()Ljava/lang/Exception;
+.end method
+
+.method public abstract b()Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TTResult;"
+        }
+    .end annotation
+.end method
+
+.method public abstract c()Z
+.end method
+
+.method public abstract d()Z
+.end method

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.WaImageView android:id="@id/quick_reply_btn_background_1" android:background="@drawable/balloon_incoming_normal_stkr" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.whatsapp.TextEmojiLabel android:textSize="@dimen/conversation_text_row_tv" android:textColor="@color/conversation_template_row_button_color" android:gravity="center" android:layout_gravity="center" android:id="@id/quick_reply_btn_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    <com.whatsapp.WaImageView android:id="@id/quick_reply_btn_background_2" android:background="@drawable/balloon_incoming_normal_stkr" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.whatsapp.TextEmojiLabel android:textSize="@dimen/conversation_text_row_tv" android:textColor="@color/conversation_template_row_button_color" android:gravity="center" android:layout_gravity="center" android:id="@id/quick_reply_btn_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    <com.whatsapp.WaImageView android:id="@id/quick_reply_btn_background_3" android:background="@drawable/balloon_incoming_normal_stkr" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.whatsapp.TextEmojiLabel android:textSize="@dimen/conversation_text_row_tv" android:textColor="@color/conversation_template_row_button_color" android:gravity="center" android:layout_gravity="center" android:id="@id/quick_reply_btn_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+</merge>

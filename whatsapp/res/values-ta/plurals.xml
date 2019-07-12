@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="other">‎%d முயற்சிகள் மீதமுள்ளன</item>
+        <item quantity="one">‎%d முயற்சி மீதமுள்ளது</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="other">நிலுவையிலுள்ள கோரிக்கைகள்</item>
+        <item quantity="one">நிலுவையிலுள்ள கோரிக்கை</item>
+    </plurals>
+    <plurals name="payments_transaction_received_notif_pending_setup_without_mentioning_sender">
+        <item quantity="other">‎%1$s அனுப்பியுள்ளார். ஏற்பதற்கு தட்டுக.</item>
+    </plurals>
+</resources>

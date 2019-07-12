@@ -1,0 +1,27 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: whatsapp.apk
+compressionType: false
+doNotCompress:
+- arsc
+- png
+- wav
+- m4a
+- mp4
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '15'
+  targetSdkVersion: '28'
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '452859'
+  versionName: 2.19.188

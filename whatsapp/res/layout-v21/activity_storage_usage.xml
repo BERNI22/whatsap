@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/actionbar_elevation">
+        <include layout="@layout/toolbar" />
+        <FrameLayout android:id="@id/search_holder" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/abc_action_bar_default_height_material" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/conversation_list" android:paddingTop="@dimen/settings_list_padding_top" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

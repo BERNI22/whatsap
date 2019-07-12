@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="other">‎%d ప్రయత్నాలు మిగిలి ఉన్నాయి</item>
+        <item quantity="one">‎%d ప్రయత్నం మిగిలి ఉంది</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="other">పెండింగ్‌లో ఉన్న అభ్యర్థనలు</item>
+        <item quantity="one">పెండింగ్‌లో ఉన్న అభ్యర్థన</item>
+    </plurals>
+    <plurals name="payments_transaction_received_notif_pending_setup_without_mentioning_sender">
+        <item quantity="other">మీకు %1$s పంపారు. ఆమోదించేందుకు ట్యాప్ చేయండి.</item>
+    </plurals>
+</resources>

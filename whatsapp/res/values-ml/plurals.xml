@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="other">‎%d ശ്രമങ്ങൾ ശേഷിക്കുന്നു</item>
+        <item quantity="one">‎%d ശ്രമം ശേഷിക്കുന്നു</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="other">അവശേഷിക്കുന്ന അപേക്ഷകൾ</item>
+        <item quantity="one">അവശേഷിക്കുന്ന അപേക്ഷ</item>
+    </plurals>
+    <plurals name="payments_transaction_received_notif_pending_setup_without_mentioning_sender">
+        <item quantity="other">‎%1$s നിങ്ങൾക്ക് അയച്ചു. സ്വീകരിക്കാൻ സ്പർശിക്കൂ.</item>
+    </plurals>
+</resources>

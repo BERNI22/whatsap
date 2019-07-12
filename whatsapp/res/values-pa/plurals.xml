@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="other">‎%d ਕੋਸ਼ਿਸ਼ਾਂ ਬਾਕੀ ਹਨ</item>
+        <item quantity="one">‎%d ਕੋਸ਼ਿਸ਼ ਬਾਕੀ ਹੈ</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="other">ਬਕਾਇਆ ਬੇਨਤੀਆਂ</item>
+        <item quantity="one">ਬਕਾਇਆ ਬੇਨਤੀ</item>
+    </plurals>
+    <plurals name="payments_transaction_received_notif_pending_setup_without_mentioning_sender">
+        <item quantity="other">ਤੁਹਾਨੂੰ %1$s ਭੇਜੇ ਹਨ। ਸਵੀਕਾਰ ਕਰਨ ਲਈ ਛੂਹੋ।</item>
+        <item quantity="one">ਤੁਹਾਨੂੰ %1$s ਭੇਜਿਆ ਹੈ। ਸਵੀਕਾਰ ਕਰਨ ਲਈ ਛੂਹੋ।</item>
+    </plurals>
+</resources>
